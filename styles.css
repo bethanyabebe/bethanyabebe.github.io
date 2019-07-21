@@ -1,20 +1,85 @@
-/* use hover function 
- <STYLE> h1, h2, h3, h4, h5, h6 {font-weight: normal} ;</STYLE>
- https://www.friscoisd.org/news/district-headlines/2018/08/10/fisd-applause!-applause!
- https://blogwritetheworld.tumblr.com/post/154289368987/featured-writer-bethany-abebe/embed
-
- (check notes file for more achievements)
- */
+/* ask about shape of boxes */
 
 body {
-    font-family: arial
+    background-color: grey;
+    margin: 0px;
+    width: 100%; 
+    /* change font later */
+    font-family: arial;
+    display: inline-block;
 }
 
-#name {
+.header {
     text-align: center;
+    display: block;
+    background-color: black;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 30px;
 }
 
-
-#banner {
+.header2 {
     text-align: center;
+    display: block;
+    background-color: black;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 30px;
 }
+
+#profiles {
+    float: right;
+    font-size: 15px;
+    color: white;
+}
+
+#profiles2 {
+    float: right;
+    font-size: 15px;
+    color: white;
+}
+
+.box {
+    display: block;
+    padding: 5px;
+    margin: 50px;
+    background-color: white;
+ }
+ 
+.box2 {
+    display: block;
+    padding: 5px;
+    margin: 50px;
+    background-color: white;
+ }
+ 
+ .scrolling {
+   overflow-y: scroll;
+   overflow-x: none;
+   background-color: white;
+   display: inline-block; 
+   text-align: center;
+   position: relative;
+   padding: 10px;
+   margin: 10px;
+   height: 12vw;
+   width: 12vw;
+ }
+
+ .container {
+    margin: 45px;
+ }
+ .IMput {
+     width: 99%;
+ }
+
+ img.ex {
+     float: right;
+     position: absolute;
+     right: 5px;
+     top: 5px;
+ }

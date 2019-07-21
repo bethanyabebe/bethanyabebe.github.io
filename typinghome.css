@@ -1,0 +1,11 @@
+#container {
+    position: relative;
+    height:100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #000000FF, #FFFFFFFF);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

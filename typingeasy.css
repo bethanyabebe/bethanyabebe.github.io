@@ -1,0 +1,11 @@
+#container {
+    position: relative;
+    height:100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #E4FFFE, #C1F0F9, #92E3E9, #73C7D0);
+    font-family: arial;
+}
