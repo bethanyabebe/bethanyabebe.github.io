@@ -24,13 +24,17 @@ body {
     size: 15px;
 }
 
+#banner2 {
+  text-decoration: none;
+  color: black;
+}
+
 ul li {
     display: inline-block;
     list-style-type: none;
     padding: 15px 20px;
     font-size: 15px;
     color: black;
-    transition: .5s; 
 }
 
 
@@ -218,7 +222,6 @@ ul li:hover{
 
   .press {
     text-align: center;
-    padding: 10%;
   }
 
   .quote {
@@ -286,3 +289,52 @@ ul li:hover{
 .form {
   text-align: center;
 }
+
+.projectz {
+  text-align: center;
+}
+
+#projectz2 {
+  text-decoration: none;
+  color: black;
+}
+
+#aboutz { 
+  animation: fadeInAnimation ease 3s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
+} 
+
+  div.newimgz {
+      margin: 100px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 500px;
+      text-align: center;
+  }
+        
+  div.newimgz:hover {
+    border: 1px solid #777;
+  }
+        
+  div.newimgz img {
+    width: 100%;
+    height: auto;
+  }
+        
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  .form {
+    text-align: center;
+  }
