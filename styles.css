@@ -221,7 +221,8 @@ ul li:hover{
 
   .press {
     text-align: center;
-  }
+    padding: 10px;
+}
 
   .quote {
     text-align: center;
