@@ -1,0 +1,337 @@
+body {
+    padding: 3%;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    }
+     
+     h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+     }
+
+.background {
+    background-size: no-repeat;
+    text-align: center;
+    width: 400px;
+} 
+#banner {
+    padding: 0%;
+    margin: 10px;
+    background: white;
+    text-align: right;
+    size: 15px;
+}
+
+#banner2 {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: black;
+}
+
+
+ul li:hover{
+    background: lightgray;
+    font-weight: bold;
+
+}
+#selam {
+    text-align: center;
+}
+
+
+#name {
+    text-align: center;
+}
+
+
+#contactform {
+    margin: 70%;
+}
+
+.cplus, .webdev{
+
+    text-align: center;
+    margin: 30px;
+}
+
+.form {
+    text-align: center;
+    resize: none;
+    margin: 30px;
+
+}
+
+.me {
+    margin: 10px;
+    text-align: center;
+    padding: 0px;
+}
+
+#logo {
+    float: left;
+    width: 5%;
+    padding: 1px;
+    padding-left: 10px;
+}
+
+.cocoimg {
+    margin: 10px;
+    padding-top: 10px;
+    width: 400px;
+    height: 300px;
+  }
+
+.utaimg {
+    position: relative;
+    height: 440px;
+    width: 420px;
+  }
+
+  .imgbio {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:white;
+    color: black;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 35px;
+  }
+
+  .utaimg:hover .imgbio {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .samsimg2 {
+    margin: 10px;
+    padding-top: 10px;
+    width: 300px;
+    height: 300px;
+  }
+
+.samsimg {
+    position: relative;
+    height: 420px;
+    width: 320px;
+  }
+
+  .imgbio2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:white;
+    color: black;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 35px;
+  }
+
+  .samsimg:hover .imgbio2 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .utaimg, .samsimg, .writingimg, .scratchimg {
+    display: inline-block;
+  }
+  
+
+  .writingimg2 {
+    margin: 10px;
+    padding-top: 10px;
+    width: 400px;
+    height: 300px;
+  }
+
+.writingimg {
+    position: relative;
+    height: 440px;
+    width: 420px;
+  }
+
+  .imgbio3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:white;
+    color: black;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 35px;
+  }
+
+  .writingimg:hover .imgbio3 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .scratchimg2 {
+    margin: 10px;
+    padding-top: 10px;
+    width: 500px;
+    height: 300px;
+  }
+
+.scratchimg {
+    position: relative;
+    height: 500px;
+    width: 520px;
+  }
+
+  .imgbio4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:white;
+    color: black;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 35px;
+  }
+
+  .scratchimg:hover .imgbio4 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #aboutz {
+    padding: 100px;
+  }
+
+  .press {
+    text-align: center;
+  }
+
+  .quote {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .quote, #picz1, #picz2 {
+    align-items: center;
+    display: inline-block;
+  }
+
+.photos {
+  display: inline-block;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.writing {
+  text-align: center;
+
+}
+
+.scratch {
+  text-align: center;
+}
+
+#web1, #web2, #web3, #web4, #web5, #web6, #web7 {
+  width: 100px;
+  height: 100vw;
+}
+
+#slideshow {
+  text-align: center;
+  margin: 80px auto;
+  position: relative;
+  width: 700px;
+  height: 400px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.dots {
+  width: 700px;
+  height: 600px;
+}
+
+.form {
+  text-align: center;
+}
+
+.projectz {
+  text-align: center;
+}
+
+#projectz2 {
+  text-decoration: none;
+  color: black;
+}
+
+#aboutz { 
+  animation: fadeInAnimation ease 3s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
+} 
+
+  div.newimgz {
+      margin: 100px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 500px;
+      text-align: center;
+  }
+        
+  div.newimgz:hover {
+    border: 1px solid #777;
+  }
+        
+  div.newimgz img {
+    width: 100%;
+    height: auto;
+  }
+        
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  .form {
+    text-align: center;
+  }
