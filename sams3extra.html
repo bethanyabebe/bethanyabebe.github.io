@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SAMStagram</title>
+        <link href="sams3extra.css" rel="stylesheet" type="text/css">
+    </head>
+    <STYLE>A {text-decoration: none;} </STYLE>
+    <body>
+        <div class="header">
+                <div class="dropdown">
+                        <button class="dropbtn">Menu</button>
+                        <div class="menu">
+                            <a href= "profile2extra.html" id= "profiles2">  Profile </a> <br>
+                            <a href= "edit.html" id= "profiles2">  Edit Account </a>
+                        </div>
+                      </div> 
+                      <div id= "sams">
+            <a href= "sams3extra.html" id= "sams"> SAMS-tagram </a> 
+                      </div>
+           </div>
+
+        <div class= "intro">
+            <br><br><br>
+        <h3> Welcome to SAMS-tagram! Type below to create a post, click the top right <br> to edit your profile, or click the top left to 
+            create a new account </h3>
+        </div>
+
+        <div class= "box" id= "box"> 
+        <h3>New Post!</h3> 
+        <form id="form1">
+                <h5>Image URL </h5> 
+                <input type="text" class= "IMput" id="link_input">
+                <br>
+                <h5> Comments </h5>
+                <input type="text" class= "IMput" id="link_input2">
+                <br>
+                <br>
+                <input type="submit" id= "submit" value="Post">  
+        </div>
+        <div class = "container" id= "captioncont" div style="float:left;"> 
+        </div>
+            
+                 </form>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+        <script src="sams3extra.js"></script>
+      
+    </body>
+</html>

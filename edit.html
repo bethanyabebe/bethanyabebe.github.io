@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SAMStagram</title>
+        <link href="sams3extra.css" rel="stylesheet" type="text/css">
+    </head>
+    <STYLE>A {text-decoration: none;} </STYLE>
+    <body>
+        <div class="header"> 
+                <a id= "back" href= "sams3extra.html"> Back </a>
+                <a href= "sams3extra.html" id= "sams"> SAMS-tagram </a> 
+        </div>
+    <div class= "userbox" id= "userbox"> 
+            <h3> Edit Username</h3> 
+            <form id="formuser">
+                    <h5> Change Username </h5> 
+                    <input type="text" class= "IMputz" id="user1">
+                    <br>
+                    <h5> Reenter Username </h5> 
+                    <input type="text" class= "IMputz" id="user2">
+                    <br>
+                    <br>
+                    <input type="submit" id= "submit" value="Save">  
+            </form>    
+        </div>
+
+        <div class= "passbox" id= "passbox"> 
+                <h3> Edit Password</h3> 
+                <form id= "formpass">
+                    <h5> Change Password </h5>
+                    <input type="password" class= "IMputz" id="pass1">
+                    <br>
+                    <h5> Reenter Password </h5>
+                    <input type="password" class= "IMputz" id="pass2">
+                    <br>
+                    <br>
+                    <input type="submit" id= "submit" value="Save">  
+                </form>    
+            </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+        <script src="edit.js"></script>
+      
+    </body>
+</html>
