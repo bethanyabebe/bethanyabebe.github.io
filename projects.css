@@ -1,7 +1,9 @@
 
 #samsimg {
 float: left;
+width: 50%;
 }
 #utaimg {
 float: right;
+  width: 50%;
 }
