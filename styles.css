@@ -14,7 +14,7 @@ body {
 .background {
     background-size: no-repeat;
     width: 200%;
-    align: center;
+    text-align: center;
 } 
 #banner {
     padding: 0%;
