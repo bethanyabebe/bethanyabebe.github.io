@@ -89,11 +89,6 @@ ul li:hover{
     height: 300px;
   }
 
-.utaimg {
-    position: relative;
-    height: 440px;
-    width: 420px;
-  }
 
   .imgbio {
     position: absolute;
@@ -114,12 +109,6 @@ ul li:hover{
     opacity: 1;
   }
 
-  .samsimg2 {
-    margin: 10px;
-    padding-top: 10px;
-    width: 300px;
-    height: 300px;
-  }
 
 .samsimg {
     position: relative;
