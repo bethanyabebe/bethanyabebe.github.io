@@ -83,8 +83,6 @@ ul li:hover{
 }
 
 .cocoimg, .samsimg2, .writingimg2, .scratchimg2 {
-    margin: 10px;
-    padding-top: 10px;
     width: 400px;
     height: 325px;
   }
@@ -111,7 +109,6 @@ ul li:hover{
 
 
 .samsimg, .utaimg, .writingimg, .scratchimg {
-    position: relative;
     height: 420px;
     width: 320px;
   }
