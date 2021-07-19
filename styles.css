@@ -205,7 +205,7 @@ ul li:hover{
     justify-content: center;
   }
 
-  .quote, #picz1, #picz2 {
+  .quote{
     align-items: center;
     display: inline-block;
   }
