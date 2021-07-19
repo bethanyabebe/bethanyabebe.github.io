@@ -147,11 +147,6 @@ ul li:hover{
     height: 300px;
   }
 
-.writingimg {
-    position: relative;
-    height: 440px;
-    width: 420px;
-  }
 
   .imgbio3 {
     position: absolute;
@@ -177,12 +172,6 @@ ul li:hover{
     padding-top: 10px;
     width: 500px;
     height: 300px;
-  }
-
-.scratchimg {
-    position: relative;
-    height: 500px;
-    width: 520px;
   }
 
   .imgbio4 {
