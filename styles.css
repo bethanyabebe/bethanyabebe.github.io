@@ -110,7 +110,7 @@ ul li:hover{
   }
 
 
-.samsimg {
+.samsimg, .utaimg, .writingimg, .scratchimg {
     position: relative;
     height: 420px;
     width: 320px;
