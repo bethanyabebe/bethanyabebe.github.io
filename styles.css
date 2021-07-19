@@ -13,7 +13,8 @@ body {
 
 .background {
     background-size: no-repeat;
-    width: 200%
+    width: 200%;
+    align: center;
 } 
 #banner {
     padding: 0%;
